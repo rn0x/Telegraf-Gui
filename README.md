@@ -7,7 +7,8 @@
 <br>
 
 <p align="center">
-  <img align="center" src="/github/logo.png" width="100px"> <br><br><br><br>
+<img align="center" src="/github/telegraf_gui.jpg"> <br><br><br><br>
+  <img align="center" src="/github/logo.png" width="100px"> <br><br><br>
   <img align="center" src="/github/1.png"> <br><br>
   <img align="center" src="/github/2.png"> <br><br>
   <img align="center" src="/github/3.png"> <br><br>
