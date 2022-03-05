@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Customize_Start_Message.css">
+</head>
+
+<body id="html_Start_Message">
+
+    <header id="titlebar" onmousedown='return false;' onselectstart='return false;' onContextMenu="return false;">
+
+        <div id="drag-region">
+            <div id="window-controls">
+
+                <div class="button" id="min-button">
+                    <img class="icon" srcset="./icon/minimize.png" draggable="false" />
+                </div>
+
+                <div class="button" id="close-button">
+                    <img class="icon" srcset="./icon/close.png" draggable="false" />
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
+    <div class="Start_Message">
+        <p id="Start_Message_title">قم بكتابة رسالة البداية هنا</p>
+        <div class="rtl_or_ltr">
+            <p id="Start_Message_rtl">إتجاه النص يمين</p>
+            <p id="Start_Message_ltr">إتجاه النص يسار</p>
+        </div>
+        <textarea cols="30" rows="10" id="Start_Message" placeholder="أدخل رسالة البداية الخاصة بك هنا"></textarea>
+        <p id="Start_Message_title_Save"></p>
+        <button id="Save_Start_Message">حفظ</button>
+    </div>
+
+    <div class="Customize_li_img_back" onmousedown='return false;' onselectstart='return false;'
+        onContextMenu="return false;">
+
+        <a href="./Customize.html" id="Customize_back_a">
+            <img src="./icon/back-arrow.png" id="settings_icon">
+            الرجوع
+        </a>
+
+    </div>
+
+    <p id="Developed">Developed by: Ryan Almalki</p>
+
+</body>
+
+</html>

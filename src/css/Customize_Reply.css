@@ -1,0 +1,427 @@
+@font-face {
+    font-family: "DroidKufi";
+    src        : url(font/DroidKufi/DroidKufi-Bold.eot?#iefix) format("embedded-opentype"),
+        url(font/DroidKufi/DroidKufi-Bold.ttf) format("truetype"),
+        /* Safari, Android, iOS */
+        url(font/DroidKufi/DroidKufi-Bold.woff) format("woff"),
+        /* Pretty Modern Browsers */
+        url(font/DroidKufi/DroidKufi-Bold.woff2) format("woff2"),
+        /* Pretty Modern Browsers */
+        url(font/DroidKufi/DroidKufi-Bold.svg) format("svg");
+}
+
+@font-face {
+    font-family: "AvergentRegular";
+    src        : url(font/AvergentRegular/AvergentRegular.ttf) format("truetype");
+}
+
+body,
+html {
+    direction          : rtl;
+    background-color   : #ecf0f1;
+    margin             : 0px 0px 0px 0px;
+    user-select        : none;
+    -khtml-user-select : none;
+    -o-user-select     : none;
+    -moz-user-select   : none;
+    -webkit-user-select: none;
+}
+
+#titlebar {
+    max-width         : 100%;
+    height            : 25px;
+    background-image  : linear-gradient(135deg, #32CCBC 10%, #90F7EC 100%);
+    -webkit-app-region: drag;
+}
+
+.icon {
+
+    display     : block;
+    margin-left : auto;
+    margin-right: auto;
+    width       : 15px;
+    padding     : 5px;
+}
+
+#window-controls {
+    display     : flex;
+    float       : left;
+    word-spacing: 5px;
+}
+
+#min-button {
+    background-image  : linear-gradient(135deg, #90F7EC 10%, #32ccbc 100%);
+    width             : 40px;
+    -webkit-app-region: no-drag;
+    transition        : 0.5s ease-in-out;
+}
+
+#min-button:hover {
+    transition      : 0.5s ease-in-out;
+    background-image: linear-gradient(135deg, #8becb7de 10%, #32cc91 100%);
+}
+
+#close-button {
+    background-image  : linear-gradient(135deg, #90F7EC 10%, #32CCBC 100%);
+    width             : 59px;
+    -webkit-app-region: no-drag;
+    transition        : 0.5s ease-in-out;
+}
+
+#close-button:hover {
+    transition      : 0.5s ease-in-out;
+    background-image: linear-gradient(135deg, #f79090 10%, #cc3232 100%);
+}
+
+/* من هنا */
+
+/* NULL */
+
+#Customize_Reply_title_null {
+    font-family  : 'DroidKufi';
+    font-size    : 25px;
+    color        : #f06a6a;
+    text-align   : center;
+    margin-top   : 150px;
+    margin-bottom: 50px;
+    text-shadow  : 5px 5px 15px rgba(0, 0, 0, 0.151);
+}
+
+#Customize_Reply_button {
+    display         : block;
+    margin-left     : auto;
+    margin-right    : auto;
+    margin-top      : 20px;
+    margin-bottom   : 50px;
+    border-radius   : 25px;
+    border          : none;
+    padding         : 10px;
+    width           : 120px;
+    cursor          : pointer;
+    font-family     : 'DroidKufi';
+    background-image: linear-gradient(135deg, #90F7EC 10%, #32CCBC 100%);
+    color           : #ffffff;
+    transition      : 0.5s ease-in-out;
+    box-shadow      : 5px 4px 15px 0px rgba(0, 0, 0, 0.075);
+    text-shadow     : 5px 5px 15px rgba(0, 0, 0, 0.151);
+}
+
+#Customize_Reply_button:hover {
+    background-image: linear-gradient(135deg, #57e4d6 10%, #9cfaf0 100%);
+    padding         : 15px;
+    width           : 180px;
+}
+
+
+/* NULL */
+
+/* True */
+
+.rtl_or_ltr_Reply {
+
+    display        : flex;
+    justify-content: space-around;
+    color          : #26805d;
+    font-family    : 'DroidKufi';
+    font-size      : 11px;
+
+
+}
+
+#Reply_rtl {
+
+    cursor: pointer;
+
+}
+
+#Reply_ltr {
+
+    cursor: pointer;
+
+}
+
+.Customize_Reply {
+
+    display         : block;
+    margin-left     : auto;
+    margin-right    : auto;
+    margin-top      : 30px;
+    margin-bottom   : 10px;
+    background-image: linear-gradient(135deg, #90F7EC 10%, #32CCBC 100%);
+    width           : 80%;
+    border-radius   : 25px;
+    padding         : 10px;
+
+
+}
+
+#Customize_Reply_textarea {
+
+    display      : block;
+    padding      : 10px;
+    border-radius: 5px;
+    width        : 90%;
+    height       : 40px;
+    overflow     : visible;
+    border       : none;
+    margin-bottom: 20px;
+    box-sizing   : border-box;
+    resize       : none;
+    margin-left  : auto;
+    margin-right : auto;
+}
+
+#Customize_Reply_textarea_2 {
+
+    display      : block;
+    padding      : 10px;
+    border-radius: 5px;
+    width        : 90%;
+    height       : 40px;
+    overflow     : visible;
+    border       : none;
+    margin-bottom: 20px;
+    box-sizing   : border-box;
+    resize       : none;
+    margin-left  : auto;
+    margin-right : auto;
+}
+
+#Customize_Reply_input_time {
+
+    display      : block;
+    padding      : 10px;
+    border-radius: 5px;
+    width        : 120px;
+    height       : 10px;
+    border       : none;
+    margin-bottom: 20px;
+    margin-left  : 20px;
+    margin-right : auto;
+}
+
+.Customize_Reply_input_time {
+    display        : flex;
+    margin-left    : auto;
+    margin-right   : auto;
+    padding-left   : 0;
+    padding-right  : 0;
+    justify-content: center;
+    width          : 280px;
+}
+
+#Customize_Reply_button_input {
+
+    display         : block;
+    margin-top      : 0px;
+    height          : 35px;
+    margin-left     : auto;
+    margin-right    : auto;
+    border-radius   : 25px;
+    padding         : 0px;
+    border          : none;
+    width           : 120px;
+    cursor          : pointer;
+    font-family     : 'DroidKufi';
+    background-image: linear-gradient(135deg, #90F7EC 10%, #32CCBC 100%);
+    color           : #ffffff;
+    transition      : 0.5s ease-in-out;
+    box-shadow      : 5px 4px 15px 0px rgba(0, 0, 0, 0.075);
+    text-shadow     : 5px 5px 15px rgba(0, 0, 0, 0.151);
+
+}
+
+#Customize_Reply_button_input:hover {
+    width           : 180px;
+    background-image: linear-gradient(135deg, #57e4d6 10%, #9cfaf0 100%);
+
+}
+
+#Customize_Reply_Status {
+
+    margin-top : 2px;
+    font-family: 'DroidKufi';
+    color      : #ff0000;
+    text-align : center;
+    font-size  : 12px;
+    padding    : 0px;
+
+}
+
+/* True */
+
+/* ul li */
+
+#Customize_Reply_ul {
+    margin : 0;
+    padding: 0;
+}
+
+.Customize_Reply_li {
+    cursor          : pointer;
+    position        : relative;
+    padding         : 12px 8px 12px 40px;
+    list-style-type : none;
+    background-image: linear-gradient(135deg, #b9fff8 10%, #6ddbd0 100%);
+    font-size       : 18px;
+    transition      : 0.2s;
+
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select   : none;
+    -ms-user-select    : none;
+    user-select        : none;
+    font-size          : 14px !important;
+    word-wrap          : break-word;
+    direction          : rtl;
+}
+
+.Customize_Reply_li:hover {
+
+    background-image: linear-gradient(135deg, #57e4d6 10%, #9cfaf0 100%);
+
+}
+
+
+
+
+#Customize_Reply_ul_li_div {
+
+    display      : block;
+    margin-left  : auto;
+    margin-right : auto;
+    margin-top   : 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding      : 10px;
+    width        : 80%;
+    font-family  : 'DroidKufi';
+    transition   : 0.5s ease-in-out;
+    overflow-y   : scroll;
+    height       : 170px;
+    color        : #ffffff;
+}
+
+#Customize_Reply_ul_li_div span {
+    color: #525252;
+}
+
+/* ul li */
+
+
+
+#Customize_Reply_title {
+    margin-top : 2px;
+    font-family: 'DroidKufi';
+    color      : #ffffff;
+    text-align : center;
+    padding-top: 20px;
+    font-size  : 18px;
+    padding    : 0px;
+}
+
+.Customize_Reply_li_time {
+    position   : absolute;
+    left       : 0;
+    top        : 0;
+    padding    : 16px 16px 12px 16px;
+    margin-left: 30px;
+    color      : #45c4bd !important;
+    font-family: 'AvergentRegular';
+}
+
+.Customize_Reply_li_time:hover {
+    color: #378581 !important;
+}
+
+.Customize_Reply_li_close {
+    position: absolute;
+    left    : 0;
+    top     : 0;
+    padding : 12px 16px 12px 16px;
+}
+
+.Customize_Reply_li_close:hover {
+    background-color: #f44336;
+    color           : white;
+}
+
+
+
+/* زر الرجوع */
+
+.Customize_li_img_back {
+    background-image: linear-gradient(135deg, #32CCBC 10%, #90F7EC 100%);
+    padding         : 5px;
+    border-radius   : 15px;
+    font-family     : 'DroidKufi';
+    text-align      : center;
+    transition      : 0.5s ease-in-out;
+    box-shadow      : 5px 4px 15px 0px rgba(0, 0, 0, 0.075);
+    margin-left     : auto;
+    margin-right    : auto;
+    width           : 80px;
+    margin-bottom   : 20px;
+}
+
+.Customize_li_img_back:hover {
+    background-image: linear-gradient(135deg, #32CCBC 10%, #90F7EC 100%);
+    transition      : 0.5s ease-in-out;
+    width           : 120px;
+    padding         : 10px;
+}
+
+.Customize_li_img_back a {
+    font-family    : 'DroidKufi';
+    text-decoration: none;
+    color          : #ffffff;
+    text-align     : center;
+}
+
+#settings_icon {
+    width: 20px;
+}
+
+#Developed {
+    font-size     : 10px;
+    text-align    : center;
+    margin        : 0;
+    color         : rgb(190, 190, 190);
+    font-family   : 'AvergentRegular';
+    letter-spacing: .5px;
+    transition    : 0.5s ease-in-out;
+    margin-bottom : 15px;
+}
+
+#Developed:hover {
+    color     : #8be4c2;
+    transition: 0.5s ease-in-out;
+}
+
+/* Custom Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width             : 13px;
+    -webkit-app-region: no-drag;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color  : #d8d8d8;
+    -webkit-app-region: no-drag;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-image  : linear-gradient(135deg, #32CCBC 10%, #90F7EC 100%);
+    -webkit-app-region: no-drag;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(135deg, #25afa1 10%, #78e0d6 100%);
+}

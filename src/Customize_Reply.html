@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Customize_Reply.css">
+</head>
+
+<body id="html_Customize_Reply">
+
+    <header id="titlebar" onmousedown='return false;' onselectstart='return false;' onContextMenu="return false;">
+
+        <div id="drag-region">
+            <div id="window-controls">
+
+                <div class="button" id="min-button">
+                    <img class="icon" srcset="./icon/minimize.png" draggable="false" />
+                </div>
+
+                <div class="button" id="close-button">
+                    <img class="icon" srcset="./icon/close.png" draggable="false" />
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
+    <div id="Customize_Reply_null">
+        <p id="Customize_Reply_title_null"></p>
+        <button id="Customize_Reply_button">إنشاء</button>
+    </div>
+
+    <div id="Customize_Reply_true">
+
+        <div class="Customize_Reply">
+
+            <p id="Customize_Reply_title"></p>
+
+            <div class="rtl_or_ltr_Reply">
+                <p id="Reply_rtl">إتجاه النص يمين</p>
+                <p id="Reply_ltr">إتجاه النص يسار</p>
+            </div>
+
+            <div class="Customize_Reply_input" id="Customize_Reply_input">
+
+                <textarea cols="30" rows="10" id="Customize_Reply_textarea"></textarea>
+                <textarea cols="30" rows="10" id="Customize_Reply_textarea_2"></textarea>
+
+                <div class="Customize_Reply_input_time">
+                    <button id="Customize_Reply_button_input"></button>
+                </div>
+
+                <p id="Customize_Reply_Status"></p>
+
+            </div>
+
+        </div>
+
+        <div id="Customize_Reply_ul_li_div">
+            <ul id="Customize_Reply_ul"></ul>
+        </div>
+
+        <div class="Customize_li_img_back" id="Customize_li_img_back" onmousedown='return false;'
+            onselectstart='return false;' onContextMenu="return false;">
+            <a href="./Customize.html" id="Customize_back_a">
+                <img src="./icon/back-arrow.png" id="settings_icon">
+                الرجوع
+            </a>
+        </div>
+
+    </div>
+
+    <p id="Developed">Developed by: Ryan Almalki</p>
+
+</body>
+
+</html>

@@ -1,0 +1,256 @@
+@font-face {
+    font-family: "DroidKufi";
+    src        : url(font/DroidKufi/DroidKufi-Bold.eot?#iefix) format("embedded-opentype"),
+        url(font/DroidKufi/DroidKufi-Bold.ttf) format("truetype"),
+        /* Safari, Android, iOS */
+        url(font/DroidKufi/DroidKufi-Bold.woff) format("woff"),
+        /* Pretty Modern Browsers */
+        url(font/DroidKufi/DroidKufi-Bold.woff2) format("woff2"),
+        /* Pretty Modern Browsers */
+        url(font/DroidKufi/DroidKufi-Bold.svg) format("svg");
+}
+
+@font-face {
+    font-family: "AvergentRegular";
+    src        : url(font/AvergentRegular/AvergentRegular.ttf) format("truetype");
+}
+
+body,
+html {
+    direction          : rtl;
+    background-color   : #ecf0f1;
+    margin             : 0px 0px 0px 0px;
+    user-select        : none;
+    -khtml-user-select : none;
+    -o-user-select     : none;
+    -moz-user-select   : none;
+    -webkit-user-select: none;
+}
+
+#titlebar {
+    max-width         : 100%;
+    height            : 25px;
+    background-image  : linear-gradient(135deg, #32CCBC 10%, #90F7EC 100%);
+    -webkit-app-region: drag;
+}
+
+.icon {
+
+    display     : block;
+    margin-left : auto;
+    margin-right: auto;
+    width       : 15px;
+    padding     : 5px;
+}
+
+#window-controls {
+    display     : flex;
+    float       : left;
+    word-spacing: 5px;
+}
+
+#min-button {
+    background-image  : linear-gradient(135deg, #90F7EC 10%, #32ccbc 100%);
+    width             : 40px;
+    -webkit-app-region: no-drag;
+    transition        : 0.5s ease-in-out;
+}
+
+#min-button:hover {
+    transition      : 0.5s ease-in-out;
+    background-image: linear-gradient(135deg, #8becb7de 10%, #32cc91 100%);
+}
+
+#close-button {
+    background-image  : linear-gradient(135deg, #90F7EC 10%, #32CCBC 100%);
+    width             : 59px;
+    -webkit-app-region: no-drag;
+    transition        : 0.5s ease-in-out;
+}
+
+#close-button:hover {
+    transition      : 0.5s ease-in-out;
+    background-image: linear-gradient(135deg, #f79090 10%, #cc3232 100%);
+}
+
+#Status {
+    text-align : center;
+    color      : rgb(255, 255, 255);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.151);
+
+}
+
+#start {
+    text-align  : center;
+    color       : #06be00;
+    margin-left : 5px;
+    margin-right: 5px;
+    text-shadow : 5px 5px 10px rgba(0, 0, 0, 0.151);
+
+}
+
+#Status_class {
+    font-family     : 'DroidKufi';
+    display         : flex;
+    justify-content : center;
+    background-color: #239167;
+    border-radius   : 15px;
+    margin-left     : 55px;
+    margin-right    : 55px;
+    margin-top      : 25px;
+    box-shadow      : 5px 4px 15px 0px rgba(0, 0, 0, 0.075);
+    background-image: linear-gradient(135deg, #32CCBC 10%, #90F7EC 100%);
+}
+
+#input_token {
+    margin-top      : 25px !important;
+    text-align      : center;
+    border-radius   : 15px;
+    padding         : 10px;
+    margin-left     : 20px;
+    margin-right    : 20px;
+    box-shadow      : 5px 5px 10px 0px rgba(0, 0, 0, 0.151);
+    background-image: linear-gradient(135deg, #32CCBC 10%, #90F7EC 100%);
+}
+
+#Enter_Token {
+    font-family: 'DroidKufi';
+    color      : #ffffff;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.151);
+}
+
+
+#token {
+    display      : inline-block;
+    border-radius: 15px;
+    width        : 80%;
+    padding      : 10px;
+    border       : none;
+}
+
+#submit_input_token {
+    margin-top      : 15px;
+    margin-bottom   : 0px;
+    border-radius   : 15px;
+    border          : none;
+    padding         : 10px;
+    width           : 80px;
+    cursor          : pointer;
+    font-family     : 'DroidKufi';
+    background-image: linear-gradient(135deg, #8becb7de 10%, #32cc91 100%);
+    color           : #239167;
+    transition      : 0.5s ease-in-out;
+}
+
+#submit_input_token:hover {
+
+    background-image: linear-gradient(135deg, #32CCBC 10%, #90F7EC 100%);
+    transition      : 0.5s ease-in-out;
+    padding         : 12px;
+    width           : 100px;
+
+}
+
+#input_err {
+
+    font-size  : 10px;
+    color      : #cc3232;
+    font-family: 'DroidKufi';
+}
+
+#off_on {
+
+    display        : flex;
+    justify-content: center;
+    text-align     : center;
+    border         : none;
+    margin-top     : 15px;
+    margin-bottom  : 0px;
+
+}
+
+#off_on button {
+    margin-left     : 15px;
+    margin-right    : 15px;
+    border-radius   : 15px;
+    border          : none;
+    padding         : 8px;
+    width           : 100px;
+    cursor          : pointer;
+    font-family     : 'DroidKufi';
+    background-image: linear-gradient(135deg, #90F7EC 10%, #32CCBC 100%);
+    color           : #ffffff;
+    transition      : 0.5s ease-in-out;
+    box-shadow      : 5px 4px 15px 0px rgba(0, 0, 0, 0.075);
+    text-shadow     : 5px 5px 15px rgba(0, 0, 0, 0.151);
+}
+
+#off_on button:hover {
+
+    background-image: linear-gradient(135deg, #32CCBC 10%, #90F7EC 100%);
+    transition      : 0.5s ease-in-out;
+    width           : 120px;
+    padding         : 10px;
+}
+
+#Customize {
+
+    text-align: center;
+    border    : none;
+
+
+}
+
+#Customize_but {
+
+    width              : 120px !important;
+    margin-top         : 35px;
+    margin-bottom      : 30px;
+    border-radius      : 15px;
+    border             : none;
+    padding            : 10px;
+    width              : 80px;
+    /* cursor          : pointer; */
+    font-family        : 'DroidKufi';
+    background-image   : linear-gradient(135deg, #90F7EC 10%, #32CCBC 100%);
+    transition         : 0.5s ease-in-out;
+    box-shadow         : 5px 4px 15px 0px rgba(0, 0, 0, 0.075);
+}
+
+#Customize_but_img {
+
+    margin-left : auto;
+    margin-right: auto;
+    width       : 13px;
+
+}
+
+#Customize_but a {
+
+    text-align     : center;
+    text-decoration: none;
+    color          : #ffffff;
+    text-shadow    : 5px 5px 15px rgba(0, 0, 0, 0.151);
+}
+
+#Customize_but:hover {
+
+    background-image: linear-gradient(135deg, #32CCBC 10%, #90F7EC 100%);
+    padding         : 12px;
+    width           : 150px !important;
+}
+
+#Developed {
+    font-size     : 10px;
+    text-align    : center;
+    margin        : 0;
+    color         : rgb(190, 190, 190);
+    font-family   : 'AvergentRegular';
+    letter-spacing: .5px;
+    transition    : 0.5s ease-in-out;
+}
+
+#Developed:hover {
+    color     : #8be4c2;
+    transition: 0.5s ease-in-out;
+}
